@@ -153,6 +153,12 @@ header .hero img {
 
 @media (min-width: 1200px) {
 	.container {
-		with: 1170px;
+		width: 1170px;
+	}
+}
+
+@media (min-width: ) {
+	header .hero h1 {
+
 	}
 }
