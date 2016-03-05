@@ -190,7 +190,7 @@ footer .logo {
 .testimonials #avatar2 blockquote:after {
 	float: right;
 	top: 100%;
-	left: 6%;
+	left: 6 %;
 	border: solid transparent;
 	content: " ";
 	height: 0;
