@@ -158,9 +158,9 @@ footer .logo {
 .testimonials ul li {
 	list-style-type: none;
 }
-.testimonials #avatar2 {
+/*.testimonials #avatar2 {
 	float: right;
-}
+}*/
 .testimonials blockquote {
 	color:#FFFFFF;
 	text-align: left;
@@ -172,7 +172,7 @@ footer .logo {
 	margin:0;
 }
 
-.testimonials #avatar1 blockquote:after {
+.testimonials /*#avatar1*/ blockquote:after {
 	top: 100%;
 	left: 6%;
 	border: solid transparent;
@@ -186,10 +186,10 @@ footer .logo {
 	margin-left: -10px;
 }
 
-.testimonials #avatar2 blockquote:after {
+/*.testimonials #avatar2 blockquote:after {
 	float: right;
 	top: 100%;
-	left: 6 %;
+	left: 6%;
 	border: solid transparent;
 	content: " ";
 	height: 0;
@@ -199,7 +199,7 @@ footer .logo {
 	border-top-color: #194372;
 	border-width: 10px;
 	margin-left: -10px;
-}
+}*/
 .testimonials img {
 	height: 65px;
 	width: 65px;
@@ -361,6 +361,14 @@ footer .logo {
 	position:relative;
 	min-height:1px;
 }
+/*added*/
+.one-fourth {
+	width: 21%;
+	float: left;
+	position: relative;
+	min-height: 1px;
+	margin: 0 2% 20px;
+}
 
 .pricing .one-third {
 	width:28%;
@@ -369,12 +377,12 @@ footer .logo {
 	min-height:1px;
 	margin: 0 2%;
 }
-.testimonials .one-half {
+/*.testimonials .one-half {
 	width:40%;
 	float:left;
 	position:relative;
 	margin: 0 2%;
-}
+}*/
 #nav-container {
 	background-color: #358DF2;
 	margin-right: auto;
