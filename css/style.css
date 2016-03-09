@@ -547,6 +547,10 @@ footer .logo {
 	text-align:center;
 	margin-right:8px;
 }
+.left-nav .container .active {
+	background-color: #2A53BF;
+}
+
 /*left-nav settings*/
 .left-nav .settings {
 	position:absolute;
