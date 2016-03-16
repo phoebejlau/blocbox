@@ -314,7 +314,7 @@ footer .logo {
 
 /*assignment 28*/
 .call-to-action {
-	background-color: #372AF9;
+	background-color: #25AADB;
 	padding: 30px 0;
 	overflow: hidden;
 	text-align: center;
@@ -444,8 +444,19 @@ footer .logo {
 	}
 
 }
-@media (min-width: 400px) and (max-width: 712px) {
-
+@media (max-width: 712px) {
+	header {
+		padding:8em;
+	}
+/*	.hero {
+		margin-bottom: 0px;
+	}*/
+	header h1 {
+		font-size: 26px;
+	}
+	header p {
+		font-size: 16px;
+	}
 	.benefits img {
 		display:none;
 	}
@@ -484,6 +495,47 @@ footer .logo {
 	margin:auto;
 	}
 }
+
+/*@media (max-width: 400px) {
+		nav .one-half {
+		width: 100%;
+	}
+	nav ul {
+		text-align: center;
+		padding:0;
+		float: none;
+	}
+	nav ul > li {
+	margin:10px;
+	display:block;
+	}
+	nav img {
+	margin:auto;
+	}
+.benefits img {
+		display:none;
+	}
+.container {
+		width: 94%;
+	}
+nav ul {
+		float:none;
+	}
+/*	footer .links {
+		width:85%;
+	}*/
+/*.testimonials {
+		width: 96%;
+	}
+.testimonials .one-half {
+		width: 96%;
+		float:none;
+	}
+.testimonials img {
+		margin-bottom: 10px;
+	}
+}
+ */*/
 
 /*dashboard*/
 .dashboard {
@@ -620,6 +672,7 @@ padding:0;
 	float:right;
 	width:98%;
 	position: relative;
+	background-color: #e8e8e8;
 }
 
 .content .header {
